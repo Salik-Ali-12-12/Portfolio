@@ -372,7 +372,7 @@ html {
 }
 
 .section-title {
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     text-align: center;
 }
 
@@ -399,7 +399,7 @@ html {
     font-size: 60px;
     line-height: 70px;
     text-transform: uppercase;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 .section-title p {
@@ -1228,7 +1228,7 @@ html {
 */
 .main-hero-area {
     padding-top: 220px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     background: url(../images/custom/hero-bg.jpg) no-repeat;
     background-position: top center;
     background-size: 100% auto;
@@ -1437,8 +1437,8 @@ html {
 * ----------------------------------------------------------------------------------------
 */
 .about-area {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background: var(--black-color);
 }
 
@@ -1644,7 +1644,7 @@ h2.about-pre-title {
 * ----------------------------------------------------------------------------------------
 */
 .services-area {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     background: url(../images/custom/section-bg-gradient-2.jpg) no-repeat;
     background-position: right center;
 
@@ -1787,8 +1787,8 @@ ul.extra-skills li i {
 * ----------------------------------------------------------------------------------------
 */
 .resume-area {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background: var(--body-background);
 }
 
@@ -1962,8 +1962,8 @@ ul.extra-skills li i {
 * ----------------------------------------------------------------------------------------
 */
 .projects-area {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background: var(--black-color);
 }
 
@@ -2163,8 +2163,8 @@ ul.extra-skills li i {
 * ----------------------------------------------------------------------------------------
 */
 .testimonials-area {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .testimonial-item {
@@ -2239,8 +2239,8 @@ ul.extra-skills li i {
 * ----------------------------------------------------------------------------------------
 */
 .pricing-area {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .pricing-item {
@@ -2371,8 +2371,8 @@ ul.extra-skills li i {
 * ----------------------------------------------------------------------------------------
 */
 .contact-area {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background: url(../images/custom/section-bg-gradient-2.jpg) no-repeat;
     background-position: right center;
 }
@@ -2614,8 +2614,8 @@ p.copy-right-text {
 }
 
 .footer-top {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .footer-top p {
@@ -2937,14 +2937,14 @@ body.loaded {
 * ----------------------------------------------------------------------------------------
 */
 .blog-area {
-    padding: 100px 0px;
+    padding: 50px 0px;
     background: url(../images/custom/section-bg-gradient-1.jpg) no-repeat;
     background-position: left center;
     background-size: auto 100%;
 }
 
 .blog-post-box {
-    margin-bottom: 60px;
+    margin-bottom: 10px;
     border: 1px solid #242424;
     padding: 40px 20px;
     background: var(--black-color);
@@ -3515,7 +3515,7 @@ ul.blog_pagination li a:hover {
 }
 
 .company-list {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .scroller__inner img {
