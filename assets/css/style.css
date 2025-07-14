@@ -1352,7 +1352,7 @@ html {
 }
 
 .hero-counter-area .count-text.k-plus:after {
-    content: 'k+';
+    content: '+';
 }
 
 .hero-counter-area .count-text.percent:after {
@@ -1479,7 +1479,7 @@ html {
 }
 
 .about-content-part p {
-    font-size: 30px;
+    font-size: 18px;
     line-height: 1.4em;
 }
 
@@ -2378,14 +2378,14 @@ ul.extra-skills li i {
 }
 
 .contact-form-area {
-    padding: 50px 30px 20px 40px;
+    padding: 30px 40px;
     border-radius: 10px;
     border: 1px solid var(--border-color);
     background: var(--black-color);
 }
 
 .contact-form-area .form-group {
-    margin-bottom: 32px;
+    margin-bottom: 20px;
 }
 
 .contact-form-area .form-group .for-icon {
@@ -2492,7 +2492,7 @@ ul.extra-skills li i {
 }
 
 .contact-content-part h2 {
-    font-size: 50px;
+    font-size: 36px;
     text-transform: uppercase;
 }
 
@@ -3625,4 +3625,16 @@ ul.blog_pagination li a:hover {
     font-weight: 400;
     color: var(--primary-color);
     margin-bottom: 30px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
 }
