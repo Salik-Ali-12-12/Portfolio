@@ -48,7 +48,6 @@
     --title-font: "Merienda", cursive;
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -65,9 +64,7 @@ body {
     font-size: 16px;
     font-family: var(--text-font);
     overflow-x: hidden;
-
 }
-
 
 h1,
 .h1,
@@ -119,7 +116,6 @@ h6,
     font-size: 16px;
 }
 
-
 p {
     line-height: 28px;
 }
@@ -148,7 +144,6 @@ a {
     transition: 0.5s;
     text-decoration: none;
     font-family: var(--title-font);
-
 }
 
 a:hover,
@@ -156,14 +151,11 @@ a:focus,
 a:visited {
     text-decoration: none;
     outline: none;
-
 }
 
 a:hover {
     color: var(--primary-color);
-
 }
-
 
 ul,
 li {
@@ -182,8 +174,6 @@ mark {
     background: transparent;
     text-decoration: underline;
 }
-
-
 
 input,
 select,
@@ -354,13 +344,11 @@ html {
     scroll-behavior: unset !important;
 }
 
-
 /*
 * ----------------------------------------------------------------------------------------
 * 02.COMMON CSS STYLE
 * ----------------------------------------------------------------------------------------
 */
-
 .no-gap {
     margin-left: 0;
     margin-right: 0;
@@ -411,7 +399,6 @@ html {
     color: var(--main-color);
 }
 
-
 .section-title h6 {
     font-size: 18px;
 }
@@ -442,7 +429,6 @@ html {
 .theme-btn-two {
     background: var(--primary-color);
     color: var(--black-color);
-
 }
 
 .theme-btn:focus {
@@ -474,7 +460,6 @@ html {
     box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
     outline: 0;
 }
-
 
 .details-btn {
     width: 50px;
@@ -533,7 +518,6 @@ html {
     align-items: center;
 }
 
-
 .list-style-one li:not(:last-child) {
     margin-bottom: 10px;
 }
@@ -553,7 +537,6 @@ html {
     font-size: 16px;
 }
 
-
 .list-style-one.two-column li i {
     padding-right: 10px;
 }
@@ -566,8 +549,6 @@ html {
     -ms-flex-align: center;
     align-items: center;
 }
-
-
 
 .list-style-two li:before {
     content: "\f00c";
@@ -635,7 +616,6 @@ html {
 .social-style-two a:hover {
     color: var(--primary-color);
 }
-
 
 .pagination {
     -webkit-box-align: center;
@@ -768,9 +748,6 @@ html {
     height: 21px;
 }
 
-
-
-
 .single-page-hero-area {
     padding-top: 200px;
     padding-bottom: 50px;
@@ -793,13 +770,11 @@ html {
     color: var(--main-color);
 }
 
-
 /*
 * ----------------------------------------------------------------------------------------
 * 03.MENU CSS STYLE
 * ----------------------------------------------------------------------------------------
 */
-
 .header-area {
     position: relative;
     left: 0px;
@@ -935,7 +910,6 @@ html {
 }
 
 .main-menu ul li .sub-menu li a {
-
     display: block;
     padding: 5px 25px;
     -webkit-transition: 0.3s;
@@ -1011,7 +985,6 @@ html {
     transition: transform 0.3s;
     transition: transform 0.3s, -webkit-transform 0.3s;
 }
-
 
 .linkstyle:hover:before {
     -webkit-transform-origin: 0% 50%;
@@ -1150,7 +1123,6 @@ html {
 .sidebar__wrapper {
     position: relative;
     padding: 45px;
-
 }
 
 @media (max-width: 575px) {
@@ -1194,7 +1166,6 @@ html {
 .sidebar__close-btn-3:hover {
     background: #666;
 }
-
 
 .body-overlay {
     background-color: rgba(0, 0, 0, 0.7);
@@ -1241,7 +1212,6 @@ html {
     position: relative;
 }
 
-
 .main-hero-image-area:after {
     position: absolute;
     background: rgba(0, 0, 0, .5);
@@ -1280,7 +1250,7 @@ html {
     position: absolute;
     right: 10%;
     top: -30%;
-    z-index: -9;
+    z-index: 1;
     border-radius: 50%;
 }
 
@@ -1315,7 +1285,6 @@ html {
     background: var(--black-color);
 }
 
-
 .author-image-part .progress-shape {
     position: absolute;
     right: 0;
@@ -1328,7 +1297,6 @@ html {
 .hero-counter-area {
     margin-top: 60px;
 }
-
 
 .counter-item {
     text-align: center;
@@ -1344,7 +1312,6 @@ html {
     color: var(--text-color);
     text-align: center;
     font-size: 50px;
-
 }
 
 .hero-counter-area .count-text.plus:after {
@@ -1430,7 +1397,6 @@ html {
     font-size: 16px;
 }
 
-
 /*
 * ----------------------------------------------------------------------------------------
 * 05.ABOUT CSS STYLE
@@ -1514,13 +1480,10 @@ html {
     margin-bottom: 20px;
 }
 
-
 .about-content-part h2 span {
     padding: 0 20px;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
-
-
 
 .about-social {
     margin-top: 30px;
@@ -1533,7 +1496,6 @@ html {
 .about-social ul li {
     display: inline-block;
     margin-right: 15px;
-
 }
 
 .about-social ul li a {
@@ -1576,15 +1538,12 @@ html {
     margin-bottom: 0;
     margin-right: 15px;
     margin-top: -5px;
-
 }
-
 
 .about-btn i {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
 }
-
 
 .about-counter-part {
     text-align: center;
@@ -1633,7 +1592,6 @@ h2.about-pre-title {
     color: var(--primary-color);
 }
 
-
 .single-about-content-part span {
     color: var(--main-color);
 }
@@ -1647,7 +1605,6 @@ h2.about-pre-title {
     padding-bottom: 50px;
     background: url(../images/custom/section-bg-gradient-2.jpg) no-repeat;
     background-position: right center;
-
 }
 
 .service-item {
@@ -1661,13 +1618,11 @@ h2.about-pre-title {
     transition: 0.5s;
 }
 
-
 .service-item:hover.service-item h5 {
     color: var(--black-color);
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
-
 
 .service-item h5 {
     background: var(--primary-color);
@@ -1717,7 +1672,6 @@ h2.about-pre-title {
     background: var(--primary-color);
 }
 
-
 /*
 * ----------------------------------------------------------------------------------------
 * 07.SKILL CSS STYLE
@@ -1749,7 +1703,6 @@ h2.about-pre-title {
     display: block;
     font-size: 20px;
     font-weight: 600;
-
     color: var(--black-color);
 }
 
@@ -1879,14 +1832,9 @@ ul.extra-skills li i {
     color: rgb(119, 119, 125);
 }
 
-
-
 .resume-box span {
     color: rgb(119, 119, 125);
 }
-
-
-
 
 .skill-area {
     padding-top: 120px;
@@ -1947,15 +1895,6 @@ ul.extra-skills li i {
     padding-right: 10px;
 }
 
-
-
-
-
-
-
-
-
-
 /*
 * ----------------------------------------------------------------------------------------
 * 09.PORTFOLIO CSS STYLE
@@ -1966,7 +1905,6 @@ ul.extra-skills li i {
     padding-bottom: 50px;
     background: var(--black-color);
 }
-
 
 .filter ul {
     margin: 0;
@@ -2106,9 +2044,6 @@ ul.extra-skills li i {
     margin-bottom: 0
 }
 
-
-
-
 .single-project-page-right,
 .single-project-page-left {
     border: 1px solid rgba(0, 0, 0, 0.05);
@@ -2153,10 +2088,6 @@ ul.extra-skills li i {
     border: 1px solid var(--border-color);
 }
 
-
-
-
-
 /*
 * ----------------------------------------------------------------------------------------
 * 10.TESTIMONIALS CSS STYLE
@@ -2177,7 +2108,6 @@ ul.extra-skills li i {
     margin-bottom: 30px;
 }
 
-
 .testimonial-item .author {
     margin-top: 25px;
     display: inline-block;
@@ -2189,7 +2119,6 @@ ul.extra-skills li i {
     height: 60px;
     width: 60px;
 }
-
 
 .testimonial-item .text {
     margin-bottom: 0px;
@@ -2204,14 +2133,12 @@ ul.extra-skills li i {
     margin-top: 20px;
 }
 
-
 .testimonial-item .testi-des span {
     margin-bottom: 0;
     color: var(--text-color);
     font-size: 14px;
     line-height: 22px;
 }
-
 
 .testimonial-item:hover .author:before {
     color: var(--black-color);
@@ -2227,11 +2154,6 @@ ul.extra-skills li i {
     margin-left: 15px;
     margin-right: 15px;
 }
-
-
-
-
-
 
 /*
 * ----------------------------------------------------------------------------------------
@@ -2282,8 +2204,6 @@ ul.extra-skills li i {
     color: var(--primary-color);
 }
 
-
-
 .pricing-item .pricing-header .price:before {
     content: '$';
 }
@@ -2298,8 +2218,6 @@ ul.extra-skills li i {
 .pricing-item .pricing-details {
     padding: 20px 20px;
 }
-
-
 
 .pricing-item .pricing-details p {
     margin-bottom: 35px;
@@ -2317,7 +2235,6 @@ ul.extra-skills li i {
     padding-right: 10px;
 }
 
-
 .pricing-item .pricing-details ul li.unable {
     color: rgb(119, 119, 125);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=35)";
@@ -2326,11 +2243,6 @@ ul.extra-skills li i {
 .pricing-item .pricing-details ul li.unable:before {
     color: white;
 }
-
-
-
-
-
 
 /*
 * ----------------------------------------------------------------------------------------
@@ -2357,13 +2269,10 @@ ul.extra-skills li i {
     margin-right: -30px;
 }
 
-
-
 .client-logo-wrap .client-logo-item {
     width: calc(20% - 60px);
     margin: 0 30px 10px;
 }
-
 
 /*
 * ----------------------------------------------------------------------------------------
@@ -2419,7 +2328,6 @@ ul.extra-skills li i {
     border-color: var(--border-color);
 }
 
-
 .contact-form-area .form-group label {
     font-size: 16px;
     color: var(--main-color);
@@ -2473,7 +2381,6 @@ ul.extra-skills li i {
 .single-contact p {
     color: rgb(119, 119, 125);
 }
-
 
 .single-contact h2 {
     margin-top: 15px;
@@ -2530,8 +2437,6 @@ ul.extra-skills li i {
     border: 1px solid var(--border-color);
 }
 
-
-
 .contact-page-form .form-group .nice-select,
 .contact-page-form .form-group .form-control {
     background: rgba(255, 255, 255, 0.07);
@@ -2567,9 +2472,6 @@ ul.extra-skills li i {
     margin-bottom: 0;
     margin-top: 10px;
 }
-
-
-
 
 /*
 * ----------------------------------------------------------------------------------------
@@ -2619,7 +2521,6 @@ p.copy-right-text {
 }
 
 .footer-top p {
-
     color: var(--main-color);
     font-size: 20px;
     text-align: center;
@@ -2854,7 +2755,6 @@ body.loaded {
     bottom: 20px;
 }
 
-
 /* ===== # Magic Cursor ===== */
 #magic-cursor {
     position: absolute;
@@ -2912,24 +2812,6 @@ body.loaded {
     opacity: 0 !important;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
 * ----------------------------------------------------------------------------------------
@@ -3024,7 +2906,6 @@ body.loaded {
     color: var(--text-color);
     font-family: var(--text-font);
 }
-
 
 .blog-category {
     padding: 80px 0px;
@@ -3371,7 +3252,6 @@ ul.blog_pagination li a:hover {
     padding-left: 10px;
 }
 
-
 .comment-form-area input:hover,
 .comment-form-area input:focus {
     border: 1px solid var(--border-color);
@@ -3485,21 +3365,6 @@ ul.blog_pagination li a:hover {
     border: 1px solid var(--border-color);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .company-design-area {
     padding: 100px 0px;
 }
@@ -3576,19 +3441,7 @@ ul.blog_pagination li a:hover {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* 404 page css */
-
 .error-area h2 {
     font-size: 40px;
     text-transform: uppercase;
