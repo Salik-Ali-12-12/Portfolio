@@ -1198,7 +1198,7 @@ html {
 * ----------------------------------------------------------------------------------------
 */
 .main-hero-area {
-    padding-top: 220px;
+    padding-top: 230px;
     padding-bottom: 50px;
     background: url(../images/custom/hero-bg.jpg) no-repeat;
     background-position: top center;
@@ -1250,7 +1250,7 @@ html {
     position: absolute;
     right: 10%;
     top: -30%;
-    z-index: 1;
+    z-index: -1;
     border-radius: 50%;
 }
 
